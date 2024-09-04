@@ -1,0 +1,13 @@
+.todoItemBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ margin-top: 3rem;
+}
+
+
+.delete-btn{
+  width: 100px;
+  height: 50px;
+}

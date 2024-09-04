@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.appContainer{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+
+
+/* App Name */
+.appName{
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 10px;
+  margin-bottom: 20px;
+  border: 5px rgb(101, 2, 33) double;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+/* Welcome Message */
+
+.welcome{
+  font-size: 35px;
+  margin-top: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+/* TodoItem.jsx */
+
+.todoItemBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ margin-top: 3rem;
+}
+
+
+.delete-btn{
+  width: 100px;
+  height: 50px;
+}
+
+
+
